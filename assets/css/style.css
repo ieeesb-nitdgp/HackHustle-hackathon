@@ -1334,6 +1334,31 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Sponsors
+--------------------------------------------------------------*/
+#sponsors .row{
+  justify-content: center;
+}
+
+#sponsors .row > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sponsor-img{
+  max-width: 300px;
+  margin: 20px;
+  width: 80%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .sponsor-img{
+    max-width: 200px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
